@@ -36,14 +36,12 @@ namespace demo03
         }
 
         // method to take speed ewey
-
         public void Brake(int value)
         {
             Speed -= value;
         }
 
         // method to display car data/properties
-
         public void PrintData()
         {
             Console.WriteLine("Car properties: ");
