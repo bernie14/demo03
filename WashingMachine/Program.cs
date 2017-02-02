@@ -10,6 +10,7 @@ namespace WashingMachine
     {
         static void Main(string[] args)
         {
+            // first washing machine
             WashingMachine wishwash = new WashingMachine();
             wishwash.Model = "Muzis pesukone";
             Console.WriteLine("mashiinan malli: " + wishwash.Model);
@@ -19,6 +20,7 @@ namespace WashingMachine
             wishwash.TurnOn();
             Console.WriteLine("wishwash mashiin on? " + wishwash.IsOn);
 
+            // another washing machine
             WashingMachine washer666 = new WashingMachine();
             washer666.Model = "Parempi pesukone";
             Console.WriteLine("mashiinan malli: " + washer666.Model);
